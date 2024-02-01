@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CloudFormation will create a bucket S3.
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: aws-bucket-example
